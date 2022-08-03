@@ -53,7 +53,7 @@ To check remote url
 git remote -v
 ```
 HEROKU_EMAIL =aalen.ai3868@gmail.com
-HEROKU_API_KEY =e37e06f6-808e-4f5e-81b9-8423670d8a43
+HEROKU_API_KEY =<>
 HEROKU_APP_NAME =ml-regression-2
 
 
