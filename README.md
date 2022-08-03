@@ -4,10 +4,10 @@
 
 ````
 creating conda environment
-
-conda create -p python==3.7 -y
+a
+conda create -p venv python==3.7 -y
 ```
-actvate conda venv
+actvate conda environment venv
 
 conda activate venv/
 
@@ -51,4 +51,37 @@ git push origin main
 To check remote url
 ```
 git remote -v
+```
+HEROKU_EMAIL =aalen.ai3868@gmail.com
+HEROKU_API_KEY =e37e06f6-808e-4f5e-81b9-8423670d8a43
+HEROKU_APP_NAME =ml-regression-2
+
+
+BUILD DOCKER IMAGE
+```
+docker build -t <image_name>:<tagname> .
+```
+>Note: image name for docker must be in lowercase
+```
+
+
+To list docker images
+```
+Docker images
+````
+
+Run docker image
+```
+docker run -p 5000:5000 -e PORT=5000 2b7a28ee36ed
+```
+
+
+To check running containers
+````
+docker ps
+```
+
+To stop a container
+```
+docker stop <container_id>
 ```
