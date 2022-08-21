@@ -72,7 +72,7 @@ Docker images
 
 Run docker image
 ```
-docker run -p 5000:5000 -e PORT=5000 2b7a28ee36ed
+docker run -p 5000:5000 -e PORT=5000 486a38547291
 ```
 
 
